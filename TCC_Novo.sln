@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCC_Novo", "TCC_Novo\TCC_Novo.csproj", "{162F132A-4D0C-416E-BC89-4B75C11B5689}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Apresentação", "1. Apresentação", "{54AADF09-57F0-4D79-8A00-26B0FAC04859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Aplicação", "2. Aplicação", "{A12082B5-596B-4F14-BFA7-D2788A1B7A13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domínio", "3. Domínio", "{6CF663E9-A472-40EB-B4CA-ACC2E00B0E94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infraestrutura", "4. Infraestrutura", "{54D16A56-205F-4E54-AEB9-C57364D59188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Testes", "6. Testes", "{5B463BB2-42FF-4A30-A2AD-3F23C0023AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao", "ClienteService\Aplicacao.csproj", "{1F2FFF65-AF90-4309-870C-B76852100D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{8152147E-502F-40B2-9280-7B9B754A1DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestrutura", "Infraestrutura\Infraestrutura.csproj", "{9A12D7DA-A9B8-46B4-A087-9B581CC16AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{636F621C-9F82-4CB6-B049-E9EDA14199DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{D5ACF094-28DC-485A-9EF6-D92937B30F54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Banco de Dados", "5. Banco de Dados", "{D9F71688-8DBA-49D6-B753-DAA61CDC7776}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Banco_de_Dados", "Banco_de_Dados\Banco_de_Dados.sqlproj", "{D70C0B88-1259-4B4E-B950-89B5A3DB8999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{162F132A-4D0C-416E-BC89-4B75C11B5689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162F132A-4D0C-416E-BC89-4B75C11B5689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162F132A-4D0C-416E-BC89-4B75C11B5689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162F132A-4D0C-416E-BC89-4B75C11B5689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2FFF65-AF90-4309-870C-B76852100D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2FFF65-AF90-4309-870C-B76852100D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2FFF65-AF90-4309-870C-B76852100D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2FFF65-AF90-4309-870C-B76852100D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8152147E-502F-40B2-9280-7B9B754A1DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8152147E-502F-40B2-9280-7B9B754A1DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8152147E-502F-40B2-9280-7B9B754A1DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8152147E-502F-40B2-9280-7B9B754A1DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A12D7DA-A9B8-46B4-A087-9B581CC16AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A12D7DA-A9B8-46B4-A087-9B581CC16AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A12D7DA-A9B8-46B4-A087-9B581CC16AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A12D7DA-A9B8-46B4-A087-9B581CC16AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636F621C-9F82-4CB6-B049-E9EDA14199DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636F621C-9F82-4CB6-B049-E9EDA14199DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636F621C-9F82-4CB6-B049-E9EDA14199DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636F621C-9F82-4CB6-B049-E9EDA14199DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5ACF094-28DC-485A-9EF6-D92937B30F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5ACF094-28DC-485A-9EF6-D92937B30F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5ACF094-28DC-485A-9EF6-D92937B30F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5ACF094-28DC-485A-9EF6-D92937B30F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70C0B88-1259-4B4E-B950-89B5A3DB8999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70C0B88-1259-4B4E-B950-89B5A3DB8999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70C0B88-1259-4B4E-B950-89B5A3DB8999}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D70C0B88-1259-4B4E-B950-89B5A3DB8999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70C0B88-1259-4B4E-B950-89B5A3DB8999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70C0B88-1259-4B4E-B950-89B5A3DB8999}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{162F132A-4D0C-416E-BC89-4B75C11B5689} = {54AADF09-57F0-4D79-8A00-26B0FAC04859}
+		{1F2FFF65-AF90-4309-870C-B76852100D33} = {A12082B5-596B-4F14-BFA7-D2788A1B7A13}
+		{8152147E-502F-40B2-9280-7B9B754A1DF2} = {6CF663E9-A472-40EB-B4CA-ACC2E00B0E94}
+		{9A12D7DA-A9B8-46B4-A087-9B581CC16AFD} = {54D16A56-205F-4E54-AEB9-C57364D59188}
+		{636F621C-9F82-4CB6-B049-E9EDA14199DA} = {5B463BB2-42FF-4A30-A2AD-3F23C0023AFF}
+		{D5ACF094-28DC-485A-9EF6-D92937B30F54} = {54AADF09-57F0-4D79-8A00-26B0FAC04859}
+		{D70C0B88-1259-4B4E-B950-89B5A3DB8999} = {D9F71688-8DBA-49D6-B753-DAA61CDC7776}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {211F8337-36FA-4E63-80D7-2402799D7859}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://maafdrums.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ClienteService\\Aplicacao.csproj
+		SccProjectTopLevelParentUniqueName1 = TCC_Novo.sln
+		SccProjectName1 = ClienteService
+		SccLocalPath1 = ClienteService
+		SccProjectUniqueName2 = Dominio\\Dominio.csproj
+		SccProjectTopLevelParentUniqueName2 = TCC_Novo.sln
+		SccProjectName2 = Dominio
+		SccLocalPath2 = Dominio
+		SccProjectUniqueName3 = Infraestrutura\\Infraestrutura.csproj
+		SccProjectTopLevelParentUniqueName3 = TCC_Novo.sln
+		SccProjectName3 = Infraestrutura
+		SccLocalPath3 = Infraestrutura
+		SccProjectUniqueName4 = TCC_Novo\\TCC_Novo.csproj
+		SccProjectTopLevelParentUniqueName4 = TCC_Novo.sln
+		SccProjectName4 = TCC_Novo
+		SccLocalPath4 = TCC_Novo
+		SccProjectUniqueName5 = Testes\\Testes.csproj
+		SccProjectTopLevelParentUniqueName5 = TCC_Novo.sln
+		SccProjectName5 = Testes
+		SccLocalPath5 = Testes
+		SccProjectUniqueName6 = MVC\\MVC.csproj
+		SccProjectTopLevelParentUniqueName6 = TCC_Novo.sln
+		SccProjectName6 = MVC
+		SccLocalPath6 = MVC
+		SccProjectUniqueName7 = Banco_de_Dados\\Banco_de_Dados.sqlproj
+		SccProjectTopLevelParentUniqueName7 = TCC_Novo.sln
+		SccProjectName7 = Banco_de_Dados
+		SccLocalPath7 = Banco_de_Dados
+	EndGlobalSection
+EndGlobal
