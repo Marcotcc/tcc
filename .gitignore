@@ -3,3 +3,17 @@
 ################################################################################
 
 /.vs
+/Banco_de_Dados
+/ClienteService/bin/Debug
+/ClienteService/obj
+/Dominio/bin/Debug
+/Dominio/obj
+/Infraestrutura/bin/Debug
+/Infraestrutura/obj
+/MVC/bin
+/MVC/obj
+/packages
+/TCC_Novo/bin/Debug
+/TCC_Novo/obj
+/Testes/bin/Debug
+/Testes/obj
